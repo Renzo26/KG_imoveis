@@ -1,0 +1,813 @@
+1. Estrutura geral do site
+
+O site possui as seguintes páginas e áreas principais:
+
+Home
+Imóveis
+Venda
+Locação
+Lançamentos
+Empresa
+Serviços
+Cadastre seu Imóvel
+Encontramos para Você
+Simuladores
+Contato
+Página de listagem de imóveis
+Página individual de cada imóvel
+
+O cabeçalho também apresenta números de telefone, WhatsApp e um item de e-mail, embora o endereço de e-mail não apareça claramente como texto na página inicial.
+
+2. Cabeçalho e menu
+Telefones exibidos
+
+Na Home e em diversas páginas aparecem:
+
+11 9 7999-9099
+11 9 7054-1105 — identificado como WhatsApp
+
+Em algumas páginas de listagem aparecem outros números:
+
+11 9 2085-3336
+11 9 7999-9099 — WhatsApp
+11 9 8289-9416 — WhatsApp
+
+No rodapé aparecem:
+
+11 92085-3336 — identificado como fixo
+11 97999-9099 — WhatsApp
+11 98289-9416 — WhatsApp
+
+Portanto, o próprio site apresenta variações na formatação e nos números do cabeçalho.
+
+Menu principal
+Home
+Imóveis
+Venda
+Locação
+Lançamentos
+Empresa
+Serviços
+Cadastre seu Imóvel
+Encontramos para Você
+Simuladores
+Contato
+3. Conteúdo da Home
+3.1 Busca de imóveis
+
+A página inicial começa com um formulário de busca com os seguintes campos:
+
+Negociação
+Venda
+Locação
+Tipo de imóvel
+Apartamentos
+Casas
+Cobertura
+Comerciais
+Galpões
+Rurais
+Sobrado
+Terrenos
+Cidade
+
+Na Home aparecem:
+
+Diadema
+Guarujá
+Itanhaém
+Itupeva
+Mauá
+Mongaguá
+Praia Grande
+Santo André
+Santos
+São Bernardo do Campo
+São Caetano do Sul
+São Paulo
+
+Nas páginas de listagem aparecem também cidades como:
+
+Capão Bonito
+Embu das Artes
+Guarulhos
+Ribeirão Pires
+Suzano
+Ubatuba
+Outros campos
+Bairro
+Valor
+Quartos
+Suítes
+Vagas
+Referência
+Faixas de valor para venda
+Até R$ 100.000,00
+De R$ 100.001,00 a R$ 300.000,00
+De R$ 300.001,00 a R$ 600.000,00
+De R$ 600.001,00 a R$ 900.000,00
+A partir de R$ 900.001,00
+Faixas de valor para locação
+
+O site apresenta:
+
+Até R$ 1.000,00
+De R$ 1.001,00 a R$ 1.000,00
+De R$ 1.001,00 a R$ 2.000,00
+De R$ 2.001,00 a R$ 2.500,00
+A partir de R$ 2.501,00
+
+Há uma inconsistência na faixa “De R$ 1.001,00 a R$ 1.000,00”, provavelmente causada por erro de cadastro ou programação.
+
+3.2 Carrossel ou destaques iniciais
+
+Logo depois da busca, a Home exibe imóveis em destaque com informações resumidas, como:
+
+Tipo do imóvel
+Cidade e estado
+Valor de venda
+Quantidade de dormitórios
+Quantidade de vagas
+
+Exemplos que estavam aparecendo durante o levantamento:
+
+Apartamento em Santo André — R$ 409.000,00
+Apartamento em Santo André — R$ 559.000,00
+Apartamento em Santo André — R$ 1.645.000,00
+Cobertura em Santo André — R$ 296.000,00
+Apartamento em Santo André — R$ 420.000,00
+
+Esse conteúdo é dinâmico e pode mudar conforme os imóveis cadastrados.
+
+3.3 Seção “Imóveis à Venda”
+
+A Home possui o título:
+
+Imóveis à Venda
+
+E o link:
+
+Veja todos os imóveis à venda
+
+Cada card pode apresentar:
+
+Referência
+Tipo do imóvel
+Bairro
+Cidade
+Estado
+Dormitórios
+Suítes
+Banheiros
+Vagas
+Área
+Valor
+Botão “Mais informações”
+
+Exemplos exibidos no momento da consulta:
+
+REF SO1448 — Sobrado, Campestre, Santo André — R$ 1.380.000,00
+REF SO1538 — Sobrado, Vila Bastos, Santo André — R$ 590.000,00
+REF SO2652 — Casa, Santa Maria, Santo André — R$ 1.545.000,00
+REF SO1425 — Sobrado, Parque Marajoara, Santo André — R$ 692.000,00
+REF AP3062 — Apartamento, Vila Luzita, Santo André — venda por R$ 335.000,00 e locação por R$ 2.990,00
+REF CO2057 — Cobertura, Jardim Santo André — R$ 490.000,00
+REF AP1882 — Apartamento, Campestre — R$ 699.000,00
+REF SO1700 — Sobrado, Vila Linda — R$ 689.000,00
+REF AP1452 — Apartamento, Vila Pires — R$ 470.000,00
+
+Os imóveis mudam conforme a base de dados.
+
+3.4 Seção “Imóveis para Locação”
+
+A Home possui o título:
+
+Imóveis para Locação
+
+E o link:
+
+Veja todos os imóveis para locação
+
+Exemplos exibidos:
+
+REF SL1523 — Comercial, Vila América, Santo André — R$ 13.000,00
+REF SL0072 — Comercial, Centro, São Bernardo do Campo — R$ 5.300,00
+REF AP3104 — Apartamento, Vila Alpina, Santo André — venda por R$ 779.000,00 e locação por R$ 5.901,00
+REF CA3237 — Casa, Vila Luzita, Santo André — R$ 1.800,00
+REF SO2795 — Casa, Jardim do Mar, São Bernardo do Campo — venda por R$ 1.378.000,00 e locação por R$ 6.000,00
+REF CO3174 — Apartamento, Vila Pires — venda por R$ 485.000,00 e locação por R$ 2.790,00
+REF CA1293 — Casa, Jardim Aclimação — venda por R$ 299.000,00 e locação por R$ 2.000,00
+REF SL0063 — Comercial, Taboão, São Bernardo do Campo — R$ 7.500,00
+REF TE2202 — Terreno, Parque das Nações, Santo André — venda por R$ 2.000.000,00 e locação por R$ 15.000,00
+3.5 Seção “Lançamentos”
+
+A Home possui o título:
+
+Lançamentos
+
+E o link:
+
+Veja todos os lançamentos
+
+Cada imóvel recebe a identificação “Lançamento”.
+
+Exemplos encontrados:
+
+REF AP1694 — Jardim Santo Alberto, Santo André — R$ 314.000,00
+REF AP1262 — Vila Áurea, São Bernardo do Campo — R$ 264.000,00
+REF AP1688 — Vila Alice, Santo André — R$ 319.000,00
+REF AP1143 — Nova Petrópolis, São Bernardo do Campo — R$ 439.000,00
+REF AP1693 — Jardim Santo Alberto, Santo André — R$ 309.000,00
+REF AP1900 — Vila Gilda, Santo André — R$ 1.330.000,00
+REF AP1722 — Casa Branca, Santo André — R$ 498.000,00
+REF AP1516 — Vila América, Santo André — R$ 384.000,00
+REF AP2030 — Vila Guarani, Santo André — R$ 319.000,00
+3.6 Chamadas finais da Home
+
+A Home termina com três chamadas principais.
+
+Simuladores Imobiliários
+
+Texto:
+
+Acesso fácil aos sites dos principais bancos
+
+Botão:
+
+Simule Agora
+
+Cadastre seu Imóvel
+
+Texto:
+
+Cadastre seu imóvel conosco e garanta bons negócios
+
+Botão:
+
+Cadastre seu Imóvel
+
+Fale Conosco
+
+Texto:
+
+Envie-nos uma mensagem, retornaremos seu contato!
+
+Botão:
+
+Entre em Contato
+
+4. Página “Empresa”
+
+A página possui o título:
+
+Empresa
+
+O texto institucional existente é:
+
+Nós estamos no mercado Imobiliário desde de 2004, com sede própria. Aqui vc compra, vende, faz toda a sua documentação Imobiliárias e também administramos e alugamos seu imóvel com segurança e rapidez, Nossa maior satisfação é atendê-lo com qualidade. Temos ótimos profissionais credenciados para melhor atendimento profissional, honestidade, transparência, respeito com clientes e colaboradores, qualidade, organização e inovação. “Ao retornar peça para falar com o mesmo corretor que lhe atendeu.
+
+Na sequência:
+
+Fidelize seu contato e evite a duplicidade ao atendimento Visite nossa pagina do Facebook e Instagram @kgimoveis e fique por dentro das novidades imobiliárias.
+
+Esse é o texto atual, incluindo erros gramaticais, falta de pontuação e uso de “vc”.
+
+Informações que esse texto comunica
+Atuação desde 2004
+Sede própria
+Compra de imóveis
+Venda de imóveis
+Documentação imobiliária
+Administração de imóveis
+Locação de imóveis
+Atendimento com segurança e rapidez
+Profissionais credenciados
+Honestidade
+Transparência
+Respeito
+Qualidade
+Organização
+Inovação
+Orientação para que o cliente continue falando com o mesmo corretor
+Divulgação do perfil @kgimoveis
+5. Página “Cadastre seu Imóvel”
+
+A página contém o título:
+
+Cadastre seu Imóvel
+
+Texto informativo:
+
+Todos os campos com * são de preenchimento obrigatório.
+
+Campos existentes
+Nome *
+Telefone *
+E-mail *
+Tipo do Imóvel *
+Negociação *
+Dados do Imóvel *
+CAPTCHA
+Botão “Enviar”
+Opções de tipo de imóvel
+Apartamentos
+Casas
+Cobertura
+Comerciais
+Galpões
+Rurais
+Sobrado
+Terrenos
+Opções de negociação
+Venda
+Locação
+Venda ou Locação
+
+O campo “Dados do Imóvel” é um campo aberto para o usuário descrever o imóvel.
+
+6. Página “Encontre seu Imóvel”
+
+Apesar de aparecer no menu como “Encontramos para Você”, o título da página é:
+
+Encontre seu Imóvel
+
+O formulário é praticamente igual ao formulário de cadastro de imóvel.
+
+Campos existentes
+Nome *
+Telefone *
+E-mail *
+Tipo do Imóvel *
+Negociação *
+Dados do Imóvel *
+CAPTCHA
+Botão “Enviar”
+Tipos de imóvel
+Apartamentos
+Casas
+Cobertura
+Comerciais
+Galpões
+Rurais
+Sobrado
+Terrenos
+Negociação
+Venda
+Locação
+Venda ou Locação
+
+O usuário utiliza “Dados do Imóvel” para descrever o imóvel que está procurando.
+
+7. Página “Simuladores”
+
+A página possui somente o título:
+
+Simuladores
+
+Abaixo aparecem links ou logotipos que direcionam para simuladores externos de instituições financeiras:
+
+Banco do Brasil
+Caixa Econômica Federal
+Bradesco
+Santander
+Itaú
+
+Não existe texto explicativo detalhado na página além do título e dos acessos aos bancos.
+
+8. Página “Contato”
+
+A página possui:
+
+Contato
+
+E o subtítulo:
+
+Formulário de Contato
+
+Texto:
+
+Todos os campos com * são de preenchimento obrigatório.
+
+Campos existentes
+Nome *
+E-mail *
+Telefone *
+Mensagem *
+CAPTCHA
+Botão “Enviar”
+
+Não foram encontrados campos específicos de assunto, motivo do contato ou seleção de setor.
+
+9. Página de listagem de imóveis
+
+A página de resultados possui o título:
+
+Imóveis
+
+E o subtítulo:
+
+Resultados da Busca
+
+Durante a consulta, a página de venda mostrava 1.317 imóveis encontrados, distribuídos em 132 páginas. A página de locação apresentou uma quantidade menor e esse número pode variar conforme alterações na base.
+
+Controles disponíveis
+Ordenar por menor valor
+Ordenar por maior valor
+Exibir 10 imóveis por página
+Exibir 20 imóveis por página
+Exibir 30 imóveis por página
+Visualização em lista
+Visualização em tabela
+Paginação
+Próxima página
+Última página
+Informações nos cards
+Referência
+Tipo do imóvel
+Bairro
+Cidade
+Estado
+Dormitórios
+Suítes
+Banheiros
+Vagas
+Área
+Valor de venda
+Valor de locação
+Link “Mais informações”
+10. Filtros da listagem
+
+A página de listagem possui uma área chamada:
+
+Filtrar Busca
+
+Tipo
+
+Na listagem de venda, os tipos registrados incluem:
+
+Apartamentos
+Casas
+Cobertura
+Comerciais
+Galpões
+Rurais
+Sobrado
+Terrenos
+Subtipos encontrados
+Padrão
+Cobertura
+Sobrado
+Sala Comercial
+Flat
+Casa de Condomínio
+Loteamento/Condomínio
+Chácara
+Prédio Inteiro
+Casa Comercial
+Loja
+Kitchenette
+Casa de Vila
+Sala
+Térrea
+Salão
+
+Alguns subtipos aparecem repetidos porque estão vinculados a tipos diferentes ou possuem cadastros duplicados.
+
+Dormitórios
+
+Existem filtros para:
+
+1 dormitório
+2 dormitórios
+3 dormitórios
+4 dormitórios
+5 dormitórios
+6 dormitórios
+7 dormitórios
+8 dormitórios
+16 dormitórios
+Suítes
+1 suíte
+2 suítes
+3 suítes
+4 suítes
+5 suítes
+Vagas de garagem
+
+Existem registros com:
+
+1 vaga
+2 vagas
+3 vagas
+4 vagas
+5 vagas
+6 vagas
+7 vagas
+8 vagas
+9 vagas
+12 vagas
+14 vagas
+15 vagas
+24 vagas
+30 vagas
+Área
+Até 50 m²
+De 51 m² a 150 m²
+De 151 m² a 250 m²
+De 251 m² a 500 m²
+A partir de 501 m²
+Faixa de valores para venda
+Até R$ 100.000,00
+De R$ 100.001,00 a R$ 300.000,00
+De R$ 300.001,00 a R$ 600.000,00
+De R$ 600.001,00 a R$ 900.000,00
+A partir de R$ 900.001,00
+Bairros
+
+O site possui uma lista extensa de bairros. Entre os mais recorrentes estão:
+
+Vila Pires
+Campestre
+Centro
+Jardim Santo André
+Vila América
+Vila Camilópolis
+Vila Assunção
+Vila Humaitá
+Vila Homero Thon
+Vila Linda
+Vila Luzita
+Vila Tibiriçá
+Vila Valparaíso
+Parque das Nações
+Parque Erasmo Assunção
+Parque Novo Oratório
+Jardim Ipanema
+Jardim Irene
+Jardim do Estádio
+Jardim Santo Alberto
+Santa Maria
+Vila Alzira
+Vila Bela Vista
+Vila Floresta
+Vila Helena
+
+A base possui muitos bairros duplicados com diferenças de letras maiúsculas, minúsculas, acentos e grafia. Exemplos:
+
+CAMPESTRE e Campestre
+VILA PIRES, Vila Pires e Vila pires
+JARDIM SANTO ANDRÉ e Jardim Santo André
+VILA LUZITA, Vila Luzita e vila luzita
+
+Também existem cadastros aparentemente incorretos ou misturados, como um endereço completo usado no lugar do nome de um bairro.
+
+11. Página individual do imóvel
+
+Cada imóvel possui uma página própria.
+
+O exemplo analisado foi:
+
+REF: SO1448 – Sobrado Campestre – Santo André – SP
+
+Estrutura da página
+Caminho de navegação
+Home
+Imóveis
+Venda
+Sobrado
+Padrão
+Galeria
+
+A página possui várias imagens do imóvel hospedadas na Amazon S3.
+
+Informações principais
+
+No imóvel analisado:
+
+Venda: R$ 1.380.000,00
+Subtipo: Padrão
+Quartos: 4
+Suítes: 2
+Banheiros: 2
+Vagas: 4
+Área construída: 197 m²
+Área total: 197 m²
+IPTU: R$ 1.660,00
+Aviso
+
+Valores informados e disponibilidade do imóvel sujeitos a alterações sem prévio aviso.
+
+11.1 Área “Fale com o Corretor”
+
+A página individual mostra:
+
+Nome ou usuário do corretor
+Cargo ou identificação
+CRECI
+E-mail
+Telefone
+WhatsApp
+Link para ver todos os imóveis daquele corretor
+
+No imóvel analisado aparecem:
+
+Nome/usuário: kgimoveis01
+Identificação: imobiliaria
+CRECI: 251469-F
+E-mail: karinagraciutti@gmail.com
+WhatsApp: 11 9 6965-4831
+Telefone: 11 4901-4040
+
+Esses dados podem variar conforme o corretor responsável por cada imóvel.
+
+11.2 Informações adicionais
+
+Existe a seção:
+
+Informações Adicionais
+
+No imóvel analisado aparece:
+
+Finalidade: residencial
+
+Também pode existir uma descrição detalhada cadastrada individualmente para cada imóvel.
+
+Exemplo do conteúdo existente nesse imóvel:
+
+LINDO SOBRADO ALTO PADRÃO | 4 DORM | 2 SUÍTES | CLOSET | ESCRITÓRIO | JARDIM INVERNO | ESPAÇO GOURMET | 4 VAGAS
+
+A descrição informa:
+
+Sobrado alto padrão
+Imóvel planejado
+Imóvel decorado
+Quatro dormitórios
+Duas suítes
+Escritório ou closet
+Ar-condicionado
+Janelas antirruído
+Banheiro social
+Sala de estar
+Jardim de inverno
+Lavabo
+Espaço gourmet
+Churrasqueira
+Sala de jantar
+Cozinha
+Área de serviço
+Quintal
+Jardim
+Pergolado
+Quatro vagas
+Piso vinílico
+Porcelanato
+Móveis planejados
+Caixas d’água
+Pressurizador
+Localização no Campestre, em Santo André
+Convite para agendar visita
+11.3 Formulário “Obtenha Mais Informações”
+
+Campos:
+
+Nome *
+E-mail *
+Telefone *
+Mensagem *
+CAPTCHA
+Botão “Enviar”
+11.4 Características do imóvel
+
+As características mudam conforme o cadastro.
+
+No exemplo analisado aparecem:
+
+Ar-condicionado
+Armário de cozinha
+Armário na cozinha
+Armário no dormitório
+Churrasqueira
+Closet
+Copa
+Cozinha
+Cozinha americana
+Despensa
+Escritório
+Espaço gourmet
+Jardim
+Lavabo
+Mobiliado
+Móveis planejados
+Quintal
+Sala de almoço
+Sala de jantar
+
+Há características duplicadas ou muito parecidas, como “Armário de cozinha” e “Armário na Cozinha”.
+
+11.5 Outras seções da página do imóvel
+Mapa de Localização
+Veja também
+Imóveis relacionados
+Botão “Voltar”
+
+Na seção “Veja também”, o site exibe outros imóveis com:
+
+Referência
+Tipo
+Bairro
+Cidade
+Características
+Valor
+Link “Mais informações”
+12. Rodapé
+
+O rodapé é repetido praticamente em todas as páginas.
+
+Título
+
+Nosso Endereço
+
+Conteúdo
+Avenida Dom Pedro I, nº 1514
+Vila Pires
+Santo André/SP
+CEP 09130-012
+CRECI 31255-J
+11 92085-3336 — fixo
+11 97999-9099 — WhatsApp
+11 98289-9416 — WhatsApp
+Redes sociais
+Facebook
+Instagram
+
+Entretanto, os links analisados direcionaram apenas para as páginas gerais do Facebook e Instagram, e não diretamente para um perfil específico da KG Imóveis.
+
+Créditos
+
+Desenvolvido por Orangeimob - Sistema de Gestão para Imobiliárias
+
+Direitos autorais
+
+O site apresenta:
+
+© 2026 KG IMÓVEIS.
+
+Em algumas páginas de listagem aparece 2025, indicando inconsistência entre páginas.
+
+13. Conteúdo dinâmico existente
+
+Além dos textos fixos, grande parte do conteúdo é alimentada pelo sistema imobiliário.
+
+Cada cadastro pode conter:
+
+Referência
+Tipo
+Subtipo
+Negociação
+Cidade
+Bairro
+Estado
+Valor de venda
+Valor de locação
+Dormitórios
+Suítes
+Banheiros
+Vagas
+Área construída
+Área total
+IPTU
+Condomínio
+Finalidade
+Descrição
+Características
+Fotos
+Corretor responsável
+CRECI do corretor
+Telefone
+WhatsApp
+E-mail
+Localização
+Imóveis relacionados
+Identificação de lançamento
+
+Não é viável transcrever individualmente os mais de mil imóveis em uma única descrição, mas todos seguem aproximadamente essa estrutura.
+
+14. Principais inconsistências encontradas
+
+O conteúdo atual possui alguns problemas claros:
+
+Telefones diferentes entre cabeçalho, rodapé e páginas internas.
+Formatação diferente para os mesmos telefones.
+Um número marcado como fixo começa com nove dígitos, o que precisa ser confirmado.
+Links de redes sociais parecem levar para páginas gerais, não para os perfis da empresa.
+Texto institucional possui erros gramaticais e de pontuação.
+Uso de “vc” no texto institucional.
+“Desde de 2004” está escrito incorretamente.
+“Documentação Imobiliárias” está gramaticalmente incorreto.
+Bairros cadastrados várias vezes com grafias diferentes.
+Tipos e características duplicadas.
+Faixa de locação inválida: “De R$ 1.001,00 a R$ 1.000,00”.
+Ano do copyright varia entre 2025 e 2026.
+O nome do serviço aparece como “Encontramos para Você” no menu e “Encontre seu Imóvel” na página.
+O campo de e-mail aparece no cabeçalho sem um endereço visível.
+Algumas páginas apresentam quantidade de imóveis diferente conforme atualização da base ou cache.

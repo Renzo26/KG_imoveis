@@ -1,0 +1,124 @@
+@import 'tailwindcss';
+
+/* ============================================================
+   KG Imóveis — Design System (estética "Elyse Residence")
+   Paleta sóbria/terrosa, tipografia serifada em destaque.
+   ============================================================ */
+@theme {
+  /* Cores — base creme + tinta quente + bronze */
+  --color-paper: #f4f1ea;
+  --color-paper-dark: #ece7dc;
+  --color-ink: #1c1a17;
+  --color-charcoal: #2b2a27;
+  --color-stone: #8a8377;
+  --color-stone-light: #b4ad9f;
+  --color-line: #e0d9cc;
+  --color-bronze: #9a6e4c;
+  --color-bronze-dark: #7d5638;
+
+  /* Tipografia */
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Easing premium */
+  --ease-elyse: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-paper);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    color: var(--color-ink);
+  }
+
+  ::selection {
+    background-color: var(--color-bronze);
+    color: var(--color-paper);
+  }
+
+  /* Lenis smooth scroll */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  /* Container padrão */
+  .shell {
+    width: 100%;
+    max-width: 80rem;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
+  @media (min-width: 1024px) {
+    .shell {
+      padding-inline: 3rem;
+    }
+  }
+
+  /* Pequeno rótulo "kicker" em caixa alta */
+  .kicker {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-bronze);
+  }
+
+  /* Linha de detalhe fina */
+  .hairline {
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-line);
+  }
+}
+
+/* Reveal de scroll (GSAP controla via classes utilitárias) */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  will-change: transform, opacity;
+}
+
+/* Respeita usuários que preferem menos movimento */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
