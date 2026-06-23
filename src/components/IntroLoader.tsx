@@ -9,6 +9,7 @@ const SEEN_KEY = 'kg-intro-seen'
  */
 export default function IntroLoader({ onDone }: { onDone: () => void }) {
   const root = useRef<HTMLDivElement>(null)
+  const started = useRef(false)
   const [show] = useState(() => {
     if (typeof window === 'undefined') return false
     return sessionStorage.getItem(SEEN_KEY) !== '1'
@@ -20,13 +21,17 @@ export default function IntroLoader({ onDone }: { onDone: () => void }) {
       return
     }
 
-    const ctx = gsap.context(() => {
+    // Trava one-shot: o StrictMode (dev) monta o efeito duas vezes; sem isto a
+    // animação tocaria 2×. Garante uma única execução por sessão.
+    if (started.current) return
+    started.current = true
+
+    sessionStorage.setItem(SEEN_KEY, '1')
+
+    gsap.context(() => {
       const tl = gsap.timeline({
         defaults: { ease: 'power3.out' },
-        onComplete: () => {
-          sessionStorage.setItem(SEEN_KEY, '1')
-          onDone()
-        },
+        onComplete: onDone,
       })
 
       tl.set('.intro__word', { yPercent: 110 })
@@ -42,8 +47,6 @@ export default function IntroLoader({ onDone }: { onDone: () => void }) {
           '>-0.3',
         )
     }, root)
-
-    return () => ctx.revert()
   }, [show, onDone])
 
   if (!show) return null

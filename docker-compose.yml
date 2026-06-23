@@ -1,0 +1,26 @@
+# Deploy da SPA estática (KG Imóveis) no EasyPanel via serviço Docker Compose.
+# Build do React + Vite empacotado e servido por Nginx na porta 80.
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: kg-imoveis-frontend
+    restart: unless-stopped
+    networks:
+      easypanel:
+        aliases:
+          - kg-imoveis-frontend
+    # O proxy do EasyPanel encaminha o domínio para esta porta (80).
+    expose:
+      - "80"
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--spider", "http://localhost:80/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+networks:
+  easypanel:
+    external: true
